@@ -1,0 +1,88 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    font-size: 1em;
+}
+h1{
+    font-size: 2em;
+    text-shadow: 10px 10px 10px #333333;
+}
+section {
+    border-left: 3px solid #0094ff;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 10px;
+}
+article {
+    border: 2px dashed #bbbbbb;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 5px 5px;
+}
+nav {
+    background-color: #5a2d78;
+    padding: 20px 20px 20px 20px;
+    margin: 0px 15% 10px 15%;
+    position: fixed;
+}
+nav a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid #5a2d78;
+    border-radius: 10px;
+}
+nav a:hover {
+    color: #FFFFFF;
+    border: 2px solid #0094ff;
+    background-color: #000000;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="search"],
+input[type="number"],
+input[type="range"],
+input[type="month"],
+input[type="url"],
+input[type="week"],
+textarea {
+    background-color: #F0FFFF;
+    font-size: 1em;
+    margin: 7px;
+    padding: 10px;
+    width: 50%;
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="range"]:focus,
+input[type="month"]:focus,
+input[type="url"]:focus,
+input[type="week"]:focus,
+textarea:focus {
+    outline-color: #000000;
+    background-color: #eef168;
+}
+#submit {
+    padding: 10px 20px 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+}
+#dragdropdiv1 {
+    width:80px;
+    height:80px;
+    padding:10px;
+    border:1px solid #aaaaaa;
+}
+#workarea {
+    width: 640px;
+    height: 420px;
+    border: 4px dashed #55bd84;
+}
